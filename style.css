@@ -41,8 +41,11 @@ hr {
     float: right;
     width: 25vw;
     height: 70vh;
-    box-shadow: 8px 8px darkgreen;
+    box-shadow: 8px 8px black;
     margin-bottom: 2vh;
+}
+#mapa_about img {
+    border: double 8px black;
 }
 
 #encuentranos_texto {
@@ -55,10 +58,18 @@ hr {
     color: black;
     float: right;
     font-display: underline;
-    padding-top: 1vh;
+    
 }
-.subrayada {
+#about_head_row {
     background-color: black;
     color: white;
-
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 2em;
+}
+.about_text_container {
+    border: solid black;
+    padding: 0.2em;
+    margin: 0.4em;
+    padding-top: 1em;
 }
