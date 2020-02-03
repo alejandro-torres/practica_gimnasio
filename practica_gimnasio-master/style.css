@@ -72,3 +72,52 @@ hr {
     margin: 0.4em;
     padding-top: 1em;
 }
+#oferta_ventana {
+    height: auto;
+    width: 60vw;
+    background-color: white;
+    font-family: "Press Start 2P";
+    position: absolute;
+    text-align: center;
+    padding: 0.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: double 8px black;
+}
+.oferta_titulo {
+    color: white;
+    background-color: black;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 35px;
+}
+.oferta_descripcion {
+    font-size: 15px;
+    margin-top: 1em;
+}
+.oferta_boton {
+    margin-top: 2em;
+    color: black;
+}
+.oferta_boton_texto {
+    border: solid 4px black;
+    padding: 1em;
+    color: black;
+    cursor: pointer;
+}
+#boton_oferta_1:hover {
+    background-color: black;
+    color: white;
+}
+#boton_oferta_2:hover{
+    background-color: black;
+    color: white;
+}
+.oferta_boton_texto:checked #oferta_ventana{
+    visibility: hidden;
+
+}
+
