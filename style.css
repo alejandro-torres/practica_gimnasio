@@ -8,30 +8,32 @@
 }
 
 hr {
-    border: 3px solid grey;
-    border-radius: 10px;
-    box-shadow: 3px 2px #333333;
+    border: 8px double black;
+    background-color: white;
+    box-shadow: 3px 2px black;
 }
 
 #logo_about {
-    border-radius: 5px;
+    color: black;
     font-size: 15px;
-    background-color: grey;
+    background-color: white;
     font-weight: 900;
     font-family: "Press Start 2P";
     font-style: italic;
-    box-shadow: 5px 3px #333333;
+    box-shadow: 5px 3px black;
     text-shadow: 1px 1px #706c61;
+    border: double 8px black;
 }
 #about_body {
     margin-top: 2vh;
+    color: black;
     float: left;
     width: 70vw;
     height: 80vh;
     margin-left: 1vw;
-    background-color: grey;
-    box-shadow: 6px 6px #333333;
-    border-radius: 5px;
+    background-color: white;
+    border: double 8px black;
+    box-shadow: 6px 6px black;
     font-family: "Press Start 2p";
 }
 #mapa_about {
@@ -39,8 +41,7 @@ hr {
     float: right;
     width: 25vw;
     height: 70vh;
-    border-radius: 5px;
-    box-shadow: 6px 6px darkolivegreen;
+    box-shadow: 8px 8px darkgreen;
     margin-bottom: 2vh;
 }
 
@@ -49,10 +50,15 @@ hr {
     font-size: xx-large;
     text-decoration: 5px underline;
     text-decoration-line: underline;
-    text-shadow: 2px 2px lightslategray;
+    text-shadow: 2px 2px rgb(255, 255, 255);
     text-align: center;
+    color: black;
     float: right;
     font-display: underline;
-    
     padding-top: 1vh;
+}
+.subrayada {
+    background-color: black;
+    color: white;
+
 }
