@@ -1,7 +1,7 @@
 .modulo {
     
 }
-#about {
+#about, #tarifas {
     padding-top: 2vh;
     background-image: linear-gradient(-45deg, #eedc40 , #eedc82);
     height: 100vh;
@@ -121,3 +121,30 @@ hr {
 
 }
 
+/*=============ESTILOS TARIFA===============*/
+.caja_arcade{
+    background-color: white;
+    color: black;
+    font-family: "Press Start 2P";
+    box-shadow: 5px 5px black;
+    border: double 8px black;
+}
+.titulo_tarifas{
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 2vw;
+}
+/*.margen_columnas{
+    margin-right: 4vw; margin-left: 4vw;
+}*/
+.carta_precio{
+    margin: 0 15px;
+    transition: transform 0.1s;
+}
+.carta_precio:hover{
+    transform:translateY(-10px);
+}
+.carta_precio p{
+    margin: 15px;
+}
+/*==========================================*/
