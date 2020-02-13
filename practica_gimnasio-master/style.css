@@ -147,4 +147,76 @@ hr {
 .carta_precio p{
     margin: 15px;
 }
-/*==========================================*/
+/*==================ENTRENADORES====================*/
+
+#team {
+    height: 100vh;
+    padding: 15px 0;
+}
+
+.titulo_team {
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 2vw;
+}
+
+.final_team {
+    margin: auto;
+    padding: 15px;
+    font-size: 2vw;
+}
+
+.texto_team {
+    margin: 15px;
+    text-align: justify;
+}
+
+.img_team {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin-left:  auto;
+    margin-right: auto;
+}
+
+.nombre_entrenador {
+    float: right;
+    margin-top: 15px;
+    text-align: right;
+}
+
+.contenedor {
+    perspective: 1000px;
+    min-height: 250px;
+}
+
+.contenedor:hover .girar, .contenedor.hover .girar {
+    transform: rotateY(180deg);
+}
+
+.girar {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frente, .espalda {
+    backface-visibility: hidden;
+    position: absolute;
+    padding: 15px;
+    width: 100%;
+}
+
+.frente {
+    z-index: 2;
+    transform: rotateY(0deg);
+}
+
+.espalda {
+    transform: rotateY(180deg);
+    left: -15px;
+}
+
+.contenedor:hover .girar, .contenedor.hover .girar, .contenedor.flip .girar {
+    transform: rotateY(180deg);
+}
