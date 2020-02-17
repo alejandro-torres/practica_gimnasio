@@ -1,0 +1,166 @@
+
+#about, #tarifas {
+    padding-top: 2vh;
+    background-image: linear-gradient(-45deg, #eedc40 , #eedc82);
+    height: 100vh;
+}
+
+hr {
+    border: 8px double black;
+    background-color: white;
+    box-shadow: 3px 2px black;
+}
+
+#logo_about {
+    color: black;
+    font-size: 15px;
+    background-color: white;
+    font-weight: 900;
+    font-family: "Press Start 2P";
+    font-style: italic;
+    box-shadow: 5px 3px black;
+    text-shadow: 1px 1px #706c61;
+    border: double 8px black;
+}
+#about_body {
+    margin-top: 2vh;
+    color: black;
+    float: left;
+    width: 70vw;
+    height: 80vh;
+    margin-left: 1vw;
+    background-color: white;
+    border: double 8px black;
+    box-shadow: 6px 6px black;
+    font-family: "Press Start 2p";
+}
+#mapa_about {
+    margin-top: 2vh;
+    float: right;
+    width: 25vw;
+    height: 70vh;
+    box-shadow: 8px 8px black;
+    margin-bottom: 2vh;
+}
+#mapa_about img {
+    border: double 8px black;
+}
+
+#encuentranos_texto {
+    font-family: "Press Start 2p";
+    font-size: xx-large;
+    text-decoration: 5px underline;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px rgb(255, 255, 255);
+    text-align: center;
+    color: black;
+    float: right;
+    font-display: underline;
+    
+}
+#about_head_row {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+}
+.about_text_container {
+    border: solid black;
+    padding: 0.2em;
+    margin: 0.4em;
+    padding-top: 1em;
+}
+#oferta_ventana {
+    height: auto;
+    width: 60vw;
+    background-color: white;
+    font-family: "Press Start 2P";
+    position: absolute;
+    text-align: center;
+    padding: 0.5em;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: double 8px black;
+}
+.oferta_titulo {
+    color: white;
+    background-color: black;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 0.2em;
+    font-size: 35px;
+}
+.oferta_descripcion {
+    font-size: 15px;
+    margin-top: 1em;
+}
+.oferta_boton {
+    margin-top: 2em;
+    color: black;
+}
+.oferta_boton_texto {
+    border: solid 4px black;
+    padding: 1em;
+    color: black;
+    cursor: pointer;
+}
+#boton_oferta_1:hover {
+    background-color: black;
+    color: white;
+}
+#boton_oferta_2:hover{
+    background-color: black;
+    color: white;
+}
+.oferta_boton_texto:checked #oferta_ventana{
+    visibility: hidden;
+
+}
+
+/*=============ESTILOS TARIFA===============*/
+.caja_arcade{
+    background-color: white;
+    color: black;
+    font-family: "Press Start 2P";
+    box-shadow: 5px 5px black;
+    border: double 8px black;
+}
+.titulo_tarifas{
+    margin: 0 auto;
+    padding: 15px;
+    font-size: 2vw;
+}
+/*.margen_columnas{
+    margin-right: 4vw; margin-left: 4vw;
+}*/
+.carta_precio{
+    margin: 0 15px;
+    transition: transform 0.1s;
+}
+.carta_precio:hover{
+    transform:translateY(-10px);
+}
+.carta_precio p{
+    margin: 15px;
+}
+/*==========================================*/
+/*====*/
+.menu{
+    display: none;
+}
+#display_combat{
+    display: none;
+}
+#ataques{
+    display: none;
+}
+button.caja_arcade, input.caja_arcade{
+    width: 100%;
+    box-shadow: none;
+}
+#menu .row{
+    padding: 5px;
+}
+/*====*/

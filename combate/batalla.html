@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container mt-2">
+
+		<div class="row">
+			<div class="col-md-7">
+				<div class="caja_arcade p-3">
+					<h3 id="nombre_enemigo">Nombre</h3>
+					<small>n:</small><small id="nivel_enemigo">¿?</small>
+					<p>ps:===========-------</p>
+					<p>¿?/¿?</p>
+				</div>
+			</div>
+			<div class="col-md-5 text-center">
+
+				<img style="height: 100%" id="imagen_enemigo" class="img-fluid" src="img/pokeball.png">
+
+			</div>
+		</div>
+
+		<div class="row mt-5">
+			<div class="col-md-5 text-center ">
+
+				<img style="height: 100%" id="imagen" class="img-fluid" src="img/pokeball.png">
+
+			</div>
+			<div class="col-md-7">
+				<div class="caja_arcade p-3">
+					<h3 id="nombre">Nombre:</h3>
+					<small>n:</small><small id="nivel">¿?</small>
+					<p>ps:===========-------</p>
+					<p>¿?/¿?</p>
+				</div>
+			</div>
+		</div>
+		<div class="row mt-2 caja_arcade">
+			<div class="col-md-7 p-3">
+				<p id="display_combat" style="margin-bottom: 0;">¡<span id="foo_name">FOO</span> quiere luchar!.</p>
+				<div id="ataques">
+					<div class="row" class="caja_arcade">
+						<div class="col-md-6">
+							<button class="caja_arcade" id="ataque_1" value="----"></button>
+						</div>
+						<div class="col-md-6">
+							<button class="caja_arcade" id="ataque_2" value="----"></button>
+						</div>
+					</div>
+					<div class="row" class="caja_arcade">
+						<div class="col-md-6">
+							<button class="caja_arcade" id="ataque_3" value="----"></button>
+						</div>
+						<div class="col-md-6">
+							<button class="caja_arcade" id="ataque_4" value="----"></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-5 caja_arcade">
+				<div id="elegir">
+					<input class="caja_arcade" type="text" name="" id="text_field">
+					<button class="caja_arcade" id="button1" type="">Elegir</button>
+				</div>
+				<div id="menu" class="menu">
+					<div class="row">
+						<div class="col-md-6">
+							<button id="luchar_btn" class="caja_arcade">Luchar</button>
+						</div>
+						<div class="col-md-6">
+							<button class="caja_arcade">PoKe</button>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<button class="caja_arcade">Objetos</button>
+						</div>
+						<div class="col-md-6">
+							<button class="caja_arcade">Huir</button>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+	</div>
+</body>
+<script src="js/js.js"></script>
+
+</html>
