@@ -8,7 +8,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap');
     </style>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <title>Pokemon Gym @GURU</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -315,8 +316,196 @@
     <!--FINAL PAGINA TEAM-->
     <!--INICIO PAGINA CONTACTO-->
     <section class="container-fluid bg-danger modulo" id="contacto">
-        <div>Contacto
+        <div>
+            <div class="row">
+                <div class="column col-xl-5">
+                    <div class="column col-xl-2"></div>
+                    <div class="column col-xl-12 float-right">
+                        <div class="row"></div>
+                        <div class="row">
+                            <hr class="container">
+                        </div>
+                        <div class="row"></div>
+                    </div>
+                    <div class="column col-xl-2"></div>
+                </div>
+                <div class="column col-xl-2 text-center p-2" id="logo_about">Contacto</div>
+                <div class="column col-xl-5">
+                    <div class="column col-xl-1"></div>
+                    <div class="column col-xl-12">
+                        <div class="row"></div>
+                        <div class="row">
+                            <hr class="container">
+                        </div>
+                        <div class="row"></div>
+                    </div>
+                    <div class="column col-xl-1"></div>
+                </div>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="column col-md-9 ml-4">
+                <div id="cajaform" class="column col-md-12 mt-5">
+                    <div class="row"> <img class="ml-5 mt-2" src="media/pokeball_about_h1.png" height="50px" width="50px">
+                    <h2 class="ml-1 mt-3 text-uppercase"> |¿Listo para combatir?|</h2>
+                    <img class="mt-2" src="media/pokeball_about_h1.png" height="50px" width="50px">
+                    </div>
+                    <hr id="hrform">
+                    <form action="" method="POST">
+                        <div class="row mt-2 ml-5">
+                            <div class="column col-md-6">
+                                <div>
+                                    <label for="nombre">NOMBRE:</label>
+                                </div>
+                                <div>
+                                    <input type="text" name="nombre" class="formularioescribir">
+                                </div>
+                            </div>
+                            <div class="column col-md-6">
+                                <div><label for="identrenador">ID ENTRENADOR/A:</label></div>
+                                <div><input type="text" name="identrenador" class="formularioescribir"></div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 ml-5">
+                                <div class="column col-md-4">
+                                <div>
+                                    <label for="pokemon1">PRIMER POKEMON:</label>
+                                </div>
+                                <div>
+                                    <select name="pokemon1" class="formularioselect">
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column col-md-4">
+                                <div>
+                                    <label for="pokemon2">SEGUNDO POKEMON:</label>
+                                </div>
+                                <div>
+                                    <select name="pokemon2" class="formularioselect">
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column col-md-4">
+                                <div>
+                                    <label for="pokemon3">TERCER POKEMON:</label>
+                                </div>
+                                <div>
+                                    <select name="pokemon3" class="formularioselect">
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column col-md-4 mt-4">
+                                <div>
+                                    <label for="pokemon4">CUARTO POKEMON:</label>
+                                </div>
+                                <div>
+                                    <select name="pokemon4" class="formularioselect">
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column col-md-4 mt-4">
+                                <div>
+                                    <label for="pokemon5">QUINTO POKEMON:</label>
+                                </div>
+                                <div>
+                                    <select name="pokemon5" class="formularioselect">
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="column col-md-4 mt-4">
+                                <div>
+                                    <label for="pokemon6">SEXTO POKEMON:</label>
+                                </div>
+                                <div>
+                                    <select name="pokemon6" class="formularioselect">
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                        <option value="Completar">Completar</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 ml-5">
+                            <div class="column col-md-6">
+                                <div>
+                                    <label for="mail">CORREO ELECTRÓNICO:</label>
+                                </div>
+                                <div>
+                                    <input type="email" name="mail" class="formularioescribir">
+                                </div>
+                            </div>
+                            <div class="column col-md-6">
+                                <div><label for="tlf">TELÉFONO:</label></div>
+                                <div><input type="tel" name="tlf" class="formularioescribir"></div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 ml-5">
+                            <div class="column col-md-6">
+                                <div>
+                                    <label for="dia">DÍA:</label>
+                                </div>
+                                <div>
+                                    <input type="date" name="dia" class="formularioescribir">
+                                </div>
+                            </div>
+                            <div class="column col-md-6">
+                                <div><label for="hora">HORA:</label></div>
+                                <div><input type="time" name="hora" class="formularioescribir"></div>
+                            </div>
+                        </div>
+                        <div class="row mt-5 ml-5">
+                            <div class="column col-md-12">
+                                <div><label for="comentario">COMENTARIO:</label></div>
+                                <div><textarea name="comentario" id="" cols="70" rows="5" class="formulariotexarea"></textarea></div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="column col-md-2" id="apartecontacto">
+                <div class="row mt-5 redes ml-1">
+                    <div class="column col-md-12 mt-2 ml-4">
+                        <i class="fab fa-instagram fa-3x"></i><a href="#" target="_blank" class="enlaceredes ml-3">@GURUGYM</a>
+                    </div>
+                    <div class="column col-md-12 mt-3 ml-4">
+                        <i class="fab fa-facebook fa-3x"></i><a href="#" target="_blank" class="enlaceredes ml-3">@GURUGYM</a>
+                    </div>
+                    <div class="column col-md-12 mt-3 mb-3 ml-4">
+                        <i class="fab fa-twitter fa-3x"></i><a href="#" target="_blank" class="enlaceredes ml-3">@GURUGYM</a>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                       <div class="carrusel column col-md-12">
+                           <img src="https://picsum.photos/200/300?t=1" alt="" class="fotocarrusel">
+                           <img src="https://picsum.photos/200/300?t=2" alt="" class="fotocarrusel">
+                           <img src="https://picsum.photos/200/300?t=3" alt="" class="fotocarrusel">
+                           <img src="https://picsum.photos/200/300?t=4" alt="" class="fotocarrusel">
+                           <img src="https://picsum.photos/200/300?t=5" alt="" class="fotocarrusel">
+                       </div>
+                </div>
+            </div>
         </div>
     </section>
     <!--FINAL PAGINA CONTACTO-->
