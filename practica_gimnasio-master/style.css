@@ -222,8 +222,12 @@ hr {
 }
 
 /*==================CONTACTO====================*/
+
+.boton_enviar {
+    margin: auto;
+}
   
-  @keyframes display {
+@keyframes display {
     0% {
       opacity: 0;
     }
