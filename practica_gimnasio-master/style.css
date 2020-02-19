@@ -227,7 +227,11 @@ hr {
     margin: auto;
 }
   
+<<<<<<< HEAD
 @keyframes display {
+=======
+  @keyframes carruselfotos {
+>>>>>>> cb99b4a26e3121936a2fc023a64874ad9d880283
     0% {
       opacity: 0;
     }
@@ -253,7 +257,7 @@ hr {
     position: absolute;
     top: 0;
     opacity: 0;
-    animation: display 10s infinite;
+    animation: carruselfotos 10s infinite;
     width: 40vh;
     background-color: white;
     color: black;
