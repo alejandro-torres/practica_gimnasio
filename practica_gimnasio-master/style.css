@@ -223,7 +223,7 @@ hr {
 
 /*==================CONTACTO====================*/
   
-  @keyframes display {
+  @keyframes carruselfotos {
     0% {
       opacity: 0;
     }
@@ -249,7 +249,7 @@ hr {
     position: absolute;
     top: 0;
     opacity: 0;
-    animation: display 10s infinite;
+    animation: carruselfotos 10s infinite;
     width: 40vh;
     background-color: white;
     color: black;
