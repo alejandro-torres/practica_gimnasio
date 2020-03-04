@@ -48,6 +48,7 @@ document.getElementById('button1').onclick = function () {
 			document.getElementById('ataque_4').innerHTML = lista_ataques[3];
 			document.getElementById('nombre').innerHTML = nombre;
 			document.getElementById('imagen').src = sprite;
+			//console.log(sprite);
 			document.getElementById('nivel').innerHTML = nivel;
 
 
