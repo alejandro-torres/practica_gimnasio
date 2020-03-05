@@ -7,6 +7,10 @@
     height: 100vh;
 }
 
+#team, #contacto{
+    background-image: linear-gradient(-45deg, #eedc40 , #eedc82);
+}
+
 hr {
     border: 8px double black;
     background-color: white;
@@ -326,3 +330,20 @@ hr {
   html {
       scroll-behavior: smooth;
   }
+
+   /*==================FOOTER====================*/
+   .titulos_footer{
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 14px;
+   }
+
+   .textofooter{
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 10px; 
+   }
+
+   .enlacefooter{
+    color: white;
+}
