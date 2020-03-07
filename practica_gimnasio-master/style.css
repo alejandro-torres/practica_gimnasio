@@ -1,7 +1,3 @@
-.modulo {
-    
-}
-
 body {
     background-color: #eedc40;
 }
@@ -38,19 +34,20 @@ hr {
 #about_body {
     margin-top: 2vh;
     color: black;
-    float: left;
+    /*float: left;
     width: 70vw;
     height: 80vh;
-    margin-left: 1vw;
+    margin-left: 1vw;*/
     background-color: white;
     border: double 8px black;
     box-shadow: 6px 6px black;
     font-family: "Press Start 2p";
+    padding: 15px;
 }
 #mapa_about {
     margin-top: 2vh;
-    float: right;
-    /*width: 25vw;
+    /*float: right;
+    width: 25vw;
     height: 70vh;*/
     box-shadow: 8px 8px black;
     margin-bottom: 2vh;
@@ -67,7 +64,7 @@ hr {
     text-shadow: 2px 2px rgb(255, 255, 255);
     text-align: center;
     color: black;
-    float: right;
+    /*float: right;*/
     font-display: underline;
     
 }
@@ -82,6 +79,7 @@ hr {
     padding: 0.2em;
     margin: 0.4em;
     padding-top: 1em;
+    text-align: justify;
 }
 #oferta_ventana {
     height: auto;
@@ -154,6 +152,7 @@ hr {
 }
 .carta_precio:hover{
     transform:translateY(-10px);
+    cursor: pointer;
 }
 .carta_precio p{
     margin: 15px;
