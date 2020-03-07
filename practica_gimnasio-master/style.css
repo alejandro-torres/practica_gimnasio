@@ -45,14 +45,12 @@ hr {
     padding: 15px;
 }
 #mapa_about {
-    margin-top: 2vh;
-    /*float: right;
+    /*margin-top: 2vh;
+    float: right;
     width: 25vw;
     height: 70vh;*/
     box-shadow: 8px 8px black;
     margin-bottom: 2vh;
-}
-#mapa_about img {
     border: double 8px black;
 }
 
