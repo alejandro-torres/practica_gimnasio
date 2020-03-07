@@ -44,6 +44,10 @@ hr {
     font-family: "Press Start 2p";
     padding: 15px;
 }
+.margen_seccion{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+}
 #mapa_about {
     /*margin-top: 2vh;
     float: right;
