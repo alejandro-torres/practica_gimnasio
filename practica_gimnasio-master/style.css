@@ -58,6 +58,10 @@ hr {
     border: double 8px black;
 }
 
+.about_texto {
+    text-align: justify;
+}
+
 #encuentranos_texto {
     font-family: "Press Start 2p";
     font-size: xx-large;
@@ -176,6 +180,7 @@ hr {
 .texto_team {
     margin: 15px;
     text-align: justify;
+    font-size: 2vh;
 }
 
 .img_team {
@@ -190,6 +195,7 @@ hr {
     float: right;
     margin-top: 15px;
     text-align: right;
+    font-size: 3vh;
 }
 
 .contenedor {
